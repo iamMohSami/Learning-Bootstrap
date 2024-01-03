@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel in Bootsrtap</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+</head>
+<body>
+    
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://english.madhyamam.com/h-upload/2022/12/06/1877547-pathaan.webp" height="900px" alt="Pathaan" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Pathaan</h3>
+          <p>25th January , 2023</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://filmfare.wwmindia.com/thumb/content/2023/jul/shahrukhkhanjawan41689246092.jpg?width=1200&height=900" alt="Jawan" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Jawan</h3>
+          <p>7th September , 2023</p>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <img src="https://static.india.com/wp-content/uploads/2023/12/Dunki-Star-Cast-Fees_-Shah-Rukh-Khan-Vicky-Kaushal-Charged-THIS-Much-For-Rajkumar-Hiranis-Film.png" alt="Dunki" class="d-block" style="width:100%">
+        <div class="carousel-caption">
+          <h3>Dunki</h3>
+          <p>21st December , 2023</p>
+        </div>  
+      </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
